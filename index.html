@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Fitrah Rizkiana</title>
+  <meta name="description" content="Portfolio Fitrah Rizkiana — Mahasiswa Sistem Informasi, Universitas Komputama (Angkatan 2023)" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:,">
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#hero">Fitrah Rizkiana</a>
+      <nav class="nav" id="nav">
+        <button id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">☰</button>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#skills">Keahlian</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <aside class="card profile-card">
+          <div class="photo-wrap">
+            <!-- Ganti src dengan foto diri Anda (assets/profile.jpg atau URL) -->
+            <img src="assets/profile.jpg" alt="Foto Fitrah Rizkiana" id="profile-photo">
+          </div>
+          <h2 class="name">Fitrah Rizkiana</h2>
+          <p class="role">Mahasiswa Sistem Informasi — Universitas Komputama (Angkatan 2023)</p>
+
+          <div class="contact-box">
+            <a href="mailto:fitrah@example.com" class="contact-item">✉️ fitrah@example.com</a>
+            <a href="#" class="contact-item">📍 Universitas Komputama</a>
+          </div>
+
+          <div class="socials">
+            <!-- Replace hrefs dengan profil Anda -->
+            <a href="#" aria-label="LinkedIn" class="social">LinkedIn</a>
+            <a href="#" aria-label="GitHub" class="social">GitHub</a>
+          </div>
+        </aside>
+
+        <section class="card intro-card">
+          <h1>Halo, saya Fitrah.</h1>
+          <p class="lead">Saya mahasiswa Sistem Informasi di Universitas Komputama (Angkatan 2023). Saya tertarik pada pengembangan web, analisis data, dan solusi digital yang memecahkan masalah nyata.</p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">Lihat Proyek</a>
+            <a class="btn outline" href="#contact">Hubungi Saya</a>
+          </div>
+
+          <div class="quick-stats">
+            <div>
+              <strong>2023</strong>
+              <span>Angkatan</span>
+            </div>
+            <div>
+              <strong>SI</strong>
+              <span>Jurusan</span>
+            </div>
+            <div>
+              <strong>Universitas</strong>
+              <span>Komputama</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section container">
+      <div class="section-grid">
+        <div>
+          <h2>Tentang Saya</h2>
+          <p>Saya Fitrah Rizkiana, mahasiswa Sistem Informasi angkatan 2023 di Universitas Komputama. Saya suka mempelajari teknologi web, UX sederhana, dan bagaimana data bisa membantu pengambilan keputusan. Saya sedang mengembangkan beberapa proyek personal dan berkontribusi pada coding challenge untuk meningkatkan kemampuan.</p>
+          <p>Saya mencari kesempatan magang atau kolaborasi pada proyek yang menantang dan berdampak.</p>
+        </div>
+
+        <div class="highlight">
+          <h3>Ringkasan Singkat</h3>
+          <ul>
+            <li>Jurusan: Sistem Informasi</li>
+            <li>Universitas: Universitas Komputama</li>
+            <li>Angkatan: 2023</li>
+            <li>Fokus: Pengembangan web & analisis data</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects container">
+      <h2>Proyek</h2>
+      <p class="muted">Beberapa proyek yang saya kerjakan (klik untuk detail).</p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h4>Website Toko Sederhana</h4>
+          <p class="muted">Frontend: HTML, CSS, JavaScript. Backend: Node.js (prototype).</p>
+          <div class="project-links">
+            <a href="#" class="link">Demo</a>
+            <a href="#" class="link">Repo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h4>Sistem Informasi Akademik (Mini)</h4>
+          <p class="muted">Aplikasi CRUD untuk manajemen data mahasiswa dan mata kuliah.</p>
+          <div class="project-links">
+            <a href="#" class="link">Demo</a>
+            <a href="#" class="link">Repo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h4>Dashboard Analisis Data</h4>
+          <p class="muted">Dashboard sederhana menampilkan visualisasi dataset menggunakan Chart.js.</p>
+          <div class="project-links">
+            <a href="#" class="link">Demo</a>
+            <a href="#" class="link">Repo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section container">
+      <h2>Keahlian</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <h5>Web Development</h5>
+          <small>HTML · CSS · JavaScript</small>
+        </div>
+        <div class="skill">
+          <h5>Backend (Dasar)</h5>
+          <small>Node.js · Express · API</small>
+        </div>
+        <div class="skill">
+          <h5>Data & Analisis</h5>
+          <small>Excel · Visualisasi · Dasar Python</small>
+        </div>
+        <div class="skill">
+          <h5>Tools</h5>
+          <small>Git · VSCode · Figma (dasar)</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container contact-section">
+      <h2>Kontak</h2>
+      <p class="muted">Ingin bekerja sama atau bertanya? Kirim pesan singkat lewat form di bawah atau email langsung ke: <strong>fitrah@example.com</strong></p>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-grid">
+          <label>
+            Nama
+            <input type="text" name="name" id="name" required placeholder="Nama lengkap">
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" id="email" required placeholder="email@contoh.com">
+          </label>
+
+          <label class="full">
+            Pesan
+            <textarea name="message" id="message" rows="6" required placeholder="Tulis pesan Anda..."></textarea>
+          </label>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Kirim</button>
+          <button type="reset" class="btn outline">Reset</button>
+        </div>
+
+        <p id="form-status" class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Fitrah Rizkiana — Mahasiswa Sistem Informasi, Universitas Komputama</p>
+      <nav>
+        <a href="#hero">Atas</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
