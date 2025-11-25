@@ -65,3 +65,25 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
+
+const popup = document.getElementById("popup");
+const popupImg = document.getElementById("popup-img");
+const closeBtn = document.querySelector(".close");
+
+// Ambil semua tombol demo
+const demoButtons = document.querySelectorAll(".demo-btn");
+
+demoButtons.forEach(btn => {
+  btn.addEventListener("click", function (e) {
+    e.preventDefault();
+    popup.style.display = "flex";
+    popupImg.src = this.getAttribute("href");
+  });
+});
+
+// Tutup popup
+closeBtn.addEventListener("click", () => popup.style.display = "none");
+
+popup.addEventListener("click", (e) => {
+  if (e.target === popup) popup.style.display = "none";
+});
