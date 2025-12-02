@@ -58,12 +58,12 @@ body{
 }
 
 /* nav */
-.nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: none; /* atau warna lain */
-  z-index: 999;
+.nav{position:relative}
+.nav-toggle{
+  display:none;
+  background:none;
+  border:0;
+  font-size:20px;
 }
 
 .nav-list{
