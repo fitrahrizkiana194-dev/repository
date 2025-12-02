@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
   // Nav toggle for mobile
- const navToggle = document.getElementById("nav-toggle");
-const navList = document.getElementById("nav-list");
-
-navToggle.addEventListener("click", () => {
-  navList.classList.toggle("show");
-});
+ 
+ const navToggle = document.getElementById('nav-toggle');
+  const navList = document.getElementById('nav-list');
+  navToggle && navToggle.addEventListener('click', function () {
+    navList.classList.toggle('show');
+  });
 
 
   // Smooth scroll for anchor links
