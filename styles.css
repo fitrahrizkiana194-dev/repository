@@ -73,29 +73,6 @@ body{
   display:flex;
   gap:18px;
 }
-.nav-list a{
-  text-decoration:none;
-  color:var(--muted);
-  font-weight:600;
-}
-
-.nav-list {
-  display: none;
-}
-.nav-list.show {
-  display: block;
-}
-
-/* jika desktop */
-@media (min-width: 768px) {
-  .nav-list {
-    display: flex;
-    gap: 20px;
-  }
-  .nav-toggle {
-    display: none;
-  }
-}
 
 
 /* Hero */
