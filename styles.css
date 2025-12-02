@@ -79,6 +79,25 @@ body{
   font-weight:600;
 }
 
+.nav-list {
+  display: none;
+}
+.nav-list.show {
+  display: block;
+}
+
+/* jika desktop */
+@media (min-width: 768px) {
+  .nav-list {
+    display: flex;
+    gap: 20px;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
+
+
 /* Hero */
 .hero{
   padding:36px 0;
