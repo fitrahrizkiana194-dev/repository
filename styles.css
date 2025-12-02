@@ -73,7 +73,11 @@ body{
   display:flex;
   gap:18px;
 }
-
+.nav-list a{
+  text-decoration:none;
+  color:var(--muted);
+  font-weight:600;
+}
 
 /* Hero */
 .hero{
