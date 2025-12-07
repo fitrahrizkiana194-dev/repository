@@ -247,7 +247,7 @@ input,textarea{
 
 .myVideo {
   width: 50%;
-  max-width: 360px;
+  max-width: 200px;
   min-width: 260px;
   border-radius: 12px;
   display: block;
