@@ -246,9 +246,10 @@ input,textarea{
 }
 
 .myVideo {
-  width: 50%;          /* agar lebar video mengikuti kontainer */
-  max-width: 100px;     /* batas maksimal lebar video */
-  border-radius: 10px;  /* sudut melengkung */
+  width: 70%;          /* ukuran sedang responsif */
+  max-width: 700px;    /* batas maksimal biar tidak terlalu besar */
+  min-width: 300px;    /* batas minimal biar tidak terlalu kecil */
+  border-radius: 12px; /* sudut melengkung lebih halus */
   display: block;
-  margin: 20px auto;    /* posisi di tengah halaman */
+  margin: 20px auto;   /* posisi center */
 }
