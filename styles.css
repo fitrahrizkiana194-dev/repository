@@ -246,8 +246,8 @@ input,textarea{
 }
 
 .myVideo {
-  width: 100%;          /* agar lebar video mengikuti kontainer */
-  max-width: 800px;     /* batas maksimal lebar video */
+  width: 50%;          /* agar lebar video mengikuti kontainer */
+  max-width: 100px;     /* batas maksimal lebar video */
   border-radius: 10px;  /* sudut melengkung */
   display: block;
   margin: 20px auto;    /* posisi di tengah halaman */
