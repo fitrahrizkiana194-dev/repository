@@ -254,3 +254,31 @@ input,textarea{
   margin: 20px auto;
 }
 
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.social {
+  display: inline-block;
+  padding: 12px 18px;
+  background: #B77466; /* warna utama */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.social:hover {
+  background: #9c5f52;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+.social:active {
+  transform: scale(0.97);
+}
